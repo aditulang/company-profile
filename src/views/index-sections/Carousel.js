@@ -23,11 +23,6 @@ const items = [
     altText: "Somewhere Beyond, Indonesia",
     caption: "Somewhere Beyond, Indonesia",
   },
-  {
-    src: require("assets/img/fotocorosel3.jpeg").default,
-    altText: "Yellowstone National Park, Indonesia",
-    caption: "Yellowstone National Park, Indonesia",
-  },
 ];
 
 function CarouselSection() {
