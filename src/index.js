@@ -30,6 +30,7 @@ import NucleoIcons from "views/NucleoIcons.js";
 import LoginPage from "views/examples/LoginPage.js";
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
+import "antd/dist/antd.css"; // or 'antd/dist/antd.less'
 
 ReactDOM.render(
   <BrowserRouter>
