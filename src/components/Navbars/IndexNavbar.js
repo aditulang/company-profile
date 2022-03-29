@@ -85,41 +85,29 @@ function IndexNavbar() {
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
+                  href="#visi-misi-komitmen"
+                  // onClick={(e) => e.preventDefault()}
                 >
                   <p>Visi misi dan Komitmen</p>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
+                <NavLink href="#struktur">
                   <p>Struktur organisasi</p>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
+                <NavLink href="#layanan">
                   <p>Layanan kami</p>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
+                <NavLink href="#pablo">
                   <p>Teknologi kami</p>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
+                <NavLink href="#pablo">
                   <p>Portopolio</p>
                 </NavLink>
               </NavItem>
