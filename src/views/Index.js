@@ -11,6 +11,7 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 
 // sections for this page
 import Banner from "./index-sections/banner/Banner.js";
+import Visimisi from "./index-sections/visimisi/Visimisi.js";
 import Images from "./index-sections/Images.js";
 import BasicElements from "./index-sections/BasicElements.js";
 import Navbars from "./index-sections/Navbars.js";
@@ -25,8 +26,12 @@ import CompleteExamples from "./index-sections/CompleteExamples.js";
 import SignUp from "./index-sections/SignUp.js";
 import Examples from "./index-sections/Examples.js";
 import Download from "./index-sections/Download.js";
-import VisiMisi from "./index-sections/visimisi/Visimisi.js";
-
+import VisiMisiKomitmen from "./index-sections/visimisi/Visimisi.js";
+import Struktur from "./index-sections/struktur/Struktur.js";
+import Layanan from "./index-sections/layanan/Layanan.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Teknologi from "./index-sections/teknologi/Teknologi.js";
+import Portofolio from "./index-sections/portofolio/Portofolio.js";
 function Index() {
   React.useEffect(() => {
     document.body.classList.add("index-page");
@@ -45,12 +50,16 @@ function Index() {
       <div className="wrapper">
         <IndexHeader />
         <div className="main">
-          translate
+          .
           <Banner />
-          <Tabs />
-          <VisiMisi />
-          <Carousel />
-          {/* <Images /> */}
+          <VisiMisiKomitmen />
+          <Struktur />
+          <Layanan />
+          <Teknologi />
+          <Portofolio />
+          {/* <Tabs />
+          <Carousel /> */}
+          {/* <Images />
           <Navbars />
           <BasicElements />
           <Pagination />
@@ -61,7 +70,7 @@ function Index() {
           <CompleteExamples />
           <SignUp />
           <Examples />
-          <Download />
+          <Download /> */}
         </div>
         <DarkFooter />
       </div>
