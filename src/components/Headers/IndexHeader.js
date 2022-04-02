@@ -1,11 +1,9 @@
-
 import React from "react";
 
 // reactstrap components
 import { Container, Row } from "reactstrap";
 // core components
-import loginusa1 from "../../assets/img/loginusa 1.png"
-
+import loginusa1 from "../../assets/img/loginusa 1.png";
 
 function IndexHeader() {
   let pageHeader = React.createRef();
@@ -29,7 +27,10 @@ function IndexHeader() {
       <div className="page-header clear-filter" filter-color="blue">
         <div
           className="page-header-image"
-          style={{backgroundImage:"url(" + require("assets/img/background biru.png").default + ")"}}
+          style={{
+            backgroundImage:
+              "url(" + require("assets/img/background biru.png").default + ")",
+          }}
           ref={pageHeader}
         ></div>
       </div>
