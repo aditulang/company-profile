@@ -1,11 +1,21 @@
 .paragraft {
   text-align: center;
-  color: #fff;
-  font-size: 150%;
-  margin-top: 97px;
+  color: #ffff;
+  font-size: 230%;
+  margin-top: 80px;
+  line-height: 0.61em;
+  padding-top: 30px;
 }
 .buttons {
   border-radius: 100px !important;
-  margin-top: 150px;
-  margin-left: 500px;
+  margin-top: 50px;
+  margin-left: 240px;
+  padding-top: 11px;
+  padding-right: 35px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+}
+
+.buttons2 {
+  text-align: center;
 }

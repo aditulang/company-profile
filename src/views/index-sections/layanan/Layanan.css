@@ -1,0 +1,13 @@
+.layanan {
+  margin-bottom: 100px;
+}
+
+.text {
+  text-align: center;
+}
+
+.baground-layanan {
+  background: url(../../../assets/img/baground3.svg);
+  background-size: cover;
+  min-height: 100vh;
+}

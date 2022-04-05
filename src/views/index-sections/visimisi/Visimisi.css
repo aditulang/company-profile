@@ -1,56 +1,16 @@
-.visi-misi-container {
-  position: absolute;
-  top: 1478px;
+.visi-misi-komitmen {
+  background: url(../../../assets/img/ikanpaus.jpg);
+  background-size: cover;
+  min-height: 90vh;
+  padding-top: 250px;
+  padding-bottom: 300px;
 
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
+  /* background: url("../../../assets/background/visimisikomitmen.svg") no-repeat; */
+  /* background-size: cover; */
 }
 
-.visi-misi-row {
-  border-radius: 70px;
-  background-color: #fff;
-  width: 1250px;
-  padding: 40px;
-}
-
-.visi-misi-title {
-  margin: auto;
-  padding-bottom: 65px;
-
-  font-weight: 700px;
-  font-size: 32px;
-  text-align: center;
-
-  color: #3da2ff;
-}
-
-.card-content {
-  margin-left: 40px;
-
-  border: 5px solid #3da2ff;
-  padding-left: 45px;
-  padding-right: 45px;
-  text-align: center;
-  width: 344px;
-  height: 482px;
-  border-radius: 50px;
-}
-
-.visi-misi-card-title {
-  background-color: #3da2ff;
-  margin: 26px auto 30px;
-  width: 178px;
-  height: 45px;
-  border-radius: 50px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* font */
-  font-weight: 700;
-  font-size: 20px;
-  color: #fff;
-}
+/* .baground {
+  background: url(../../../assets/img/ikanpaus.jpg);
+  background-size: cover;
+  min-height: 100vh;
+} */
