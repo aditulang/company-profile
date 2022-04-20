@@ -1,5 +1,6 @@
 .layanan {
   margin-bottom: 100px;
+  justify-content: center;
 }
 
 .text {
@@ -10,4 +11,8 @@
   background: url(../../../assets/img/baground3.svg);
   background-size: cover;
   min-height: 100vh;
+}
+
+.marginss {
+  justify-self: center;
 }

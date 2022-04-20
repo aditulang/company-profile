@@ -9,13 +9,14 @@
 .buttons {
   border-radius: 100px !important;
   margin-top: 50px;
-  margin-left: 240px;
   padding-top: 11px;
-  padding-right: 35px;
   padding-bottom: 10px;
-  padding-left: 35px;
 }
 
 .buttons2 {
   text-align: center;
+}
+
+.images {
+  width: 100%;
 }

@@ -1,0 +1,19 @@
+.logo-fother {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 400px;
+}
+
+.kontak {
+  margin-bottom: 20%;
+}
+
+.h4 {
+  margin-bottom: 3%;
+}
+
+.baground-images {
+  background: url("../../../assets/img/waves.svg") no-repeat;
+  background-size: cover;
+  padding-bottom: 1px;
+}

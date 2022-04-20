@@ -1,0 +1,13 @@
+.carousel-gird {
+  justify-content: center;
+}
+
+.carousel-left {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.bottomss {
+  margin-bottom: 50px;
+}
