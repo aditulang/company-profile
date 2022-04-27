@@ -16,3 +16,13 @@
 .marginss {
   justify-self: center;
 }
+
+.gif-image {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10%;
+}
+.margin1-top {
+  margin-top: 6%;
+}
